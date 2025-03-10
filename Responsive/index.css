@@ -1,0 +1,98 @@
+@media screen and (max-width: 600px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr) !important;
+        justify-items: center;
+    }
+    #gold .card {
+        zoom: .95;
+    }
+}
+.support {
+    background-color: white;
+    width: 855px;
+    height: 182.79px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+.support a {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    max-width: 100%;
+}
+.card-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 100%;
+    gap: 10px;
+}
+#gold {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+#gold .card {
+    min-height: 238px;
+    width: 203px;
+}
+.card-container .card {
+    min-height: 203px;
+    width: 160px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: white;
+    margin-bottom: 10px;
+    min-width: 160px;
+}
+.card-container .card:last-child {
+    margin-right: 0;
+}
+.card h4 {
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+.card h4:not(.tag) {
+    padding-left: 20px;
+}
+#gold h4:not(.tag) {
+    margin-top: 4px;
+}
+#silver h4:not(.tag) {
+    margin-top: 4px;
+}
+.card a {
+    text-decoration: none;
+    color: black;
+}
+#gold .card img {
+    height: 150px;
+    width: 203px;
+}
+.card img {
+    height: 120px;
+    width: 160px;
+    object-fit: cover;
+    text-align: center;
+}
+.tag {
+    background-color: #2993D1;
+    font-family: monospace, sans-serif;
+    color: white;
+    font-size: 10px;
+    padding: 7px 10px;
+    border-radius: 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+#gold .tag {
+    font-size: 12px;
+}
+h3 {
+    font-weight: bold;
+}
+#regular .card {
+     min-height: 140px;
+}
